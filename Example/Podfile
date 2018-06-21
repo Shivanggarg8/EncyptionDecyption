@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EncyptionDecyption_Example' do
+  pod 'EncyptionDecyption', :path => '../'
+
+  target 'EncyptionDecyption_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
