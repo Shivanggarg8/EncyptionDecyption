@@ -1,0 +1,6 @@
+framework module Pods_EncyptionDecyption_Tests {
+  umbrella header "Pods-EncyptionDecyption_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

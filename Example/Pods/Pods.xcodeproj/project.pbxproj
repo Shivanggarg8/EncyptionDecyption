@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1758000495C0D70B7972AB1B9BA3A23B /* Pods-EncyptionDecyption_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB2C6F0D64A651EA7679E1984163E892 /* Pods-EncyptionDecyption_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18D73923D469BE6499C8D2C4FA5F00C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		21B2753461FE671531DC6DD2B5B85FA1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8582E49E25ABF17EF35C35A89406C358 /* ReplaceMe.swift */; };
+		3255EAAE0545356173BB7EB4F1D7B819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		33FF9C7BACC3008F23AD842519B50C4E /* Pods-EncyptionDecyption_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0CCBCAF8C5625FE525BA1AB6952E5B /* Pods-EncyptionDecyption_Tests-dummy.m */; };
+		5034DE07C1431590F7A2030EBCEDB0A2 /* Pods-EncyptionDecyption_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDEFE24E4153BB401AF6C967293FDE /* Pods-EncyptionDecyption_Example-dummy.m */; };
+		5A737D15CE5471694A160BA4B12C9916 /* EncyptionDecyption-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A62641ADE53F5223741DA5ADAC2CF0C4 /* EncyptionDecyption-dummy.m */; };
+		671CDD805BF0D9ACCF20CF1EB20EC6D4 /* Pods-EncyptionDecyption_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D244671795FE23147773E400660A198 /* Pods-EncyptionDecyption_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F4C9AB76999C6EA220E791C6BD112CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D5E668C14C281A973D1CD615C41B7882 /* EncyptionDecyption-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D4D75411FC2C244C676F89806DCE81 /* EncyptionDecyption-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C0184A0AF60623F73F39B348A3C846 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15A5B7B979C3357CDBB7493BED4EBA85;
+			remoteInfo = EncyptionDecyption;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		084AC00EE6F4BE7327DE84B774D4304F /* Pods_EncyptionDecyption_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EncyptionDecyption_Example.framework; path = "Pods-EncyptionDecyption_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13AE12FAE8C4E6BB28EA5735BA4E2055 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15324A69DB82C8ADEAA8908542D7F9DE /* Pods-EncyptionDecyption_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyptionDecyption_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		213EC33F691C85C616D462E200F41445 /* EncyptionDecyption.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EncyptionDecyption.modulemap; sourceTree = "<group>"; };
+		214BA1DD8C0A9F071F533D640F876B71 /* Pods-EncyptionDecyption_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EncyptionDecyption_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2E749F9BC229558D49B9308E25468D83 /* Pods-EncyptionDecyption_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyptionDecyption_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		36202391FE566BD9BDDAFEDFBD87729B /* Pods-EncyptionDecyption_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyptionDecyption_Example-resources.sh"; sourceTree = "<group>"; };
+		3A0CCBCAF8C5625FE525BA1AB6952E5B /* Pods-EncyptionDecyption_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EncyptionDecyption_Tests-dummy.m"; sourceTree = "<group>"; };
+		3D244671795FE23147773E400660A198 /* Pods-EncyptionDecyption_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EncyptionDecyption_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3FEDEFE24E4153BB401AF6C967293FDE /* Pods-EncyptionDecyption_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EncyptionDecyption_Example-dummy.m"; sourceTree = "<group>"; };
+		40D4D75411FC2C244C676F89806DCE81 /* EncyptionDecyption-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EncyptionDecyption-umbrella.h"; sourceTree = "<group>"; };
+		4CC3FEA74A4B8C7DBF57D8BB1DADB79F /* Pods-EncyptionDecyption_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EncyptionDecyption_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4DE3622B14DD752AE8F7B0DA8433D73C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D5AEEC12F629BA023DB7F249CF1D11 /* Pods_EncyptionDecyption_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EncyptionDecyption_Tests.framework; path = "Pods-EncyptionDecyption_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C0193090EFA311A1A42CBA4C901659 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5AE7093D518B53AE956F980CB5040CFB /* Pods-EncyptionDecyption_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyptionDecyption_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69F05EA5C21A66FC6FCD5F1E49F6A795 /* Pods-EncyptionDecyption_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyptionDecyption_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6E90E2B263A9E24001BC0D3059BCAF9C /* Pods-EncyptionDecyption_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EncyptionDecyption_Example.modulemap"; sourceTree = "<group>"; };
+		85279793C20700979EB52B2C52F3B7F9 /* EncyptionDecyption.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = EncyptionDecyption.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8582E49E25ABF17EF35C35A89406C358 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EncyptionDecyption/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		8790756C4E5F66F13A7086DE6C6BCD9E /* Pods-EncyptionDecyption_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyptionDecyption_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8B7111C19D413F32CCCA5D1DA4E54BED /* Pods-EncyptionDecyption_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EncyptionDecyption_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A62641ADE53F5223741DA5ADAC2CF0C4 /* EncyptionDecyption-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EncyptionDecyption-dummy.m"; sourceTree = "<group>"; };
+		CB2C6F0D64A651EA7679E1984163E892 /* Pods-EncyptionDecyption_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EncyptionDecyption_Example-umbrella.h"; sourceTree = "<group>"; };
+		CE8F988EA86CA892442E4560D99BF616 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D3038CE95F8B321DF56996B81D3A6CF7 /* Pods-EncyptionDecyption_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EncyptionDecyption_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D37D2E977C0B58A0D3AF51B55CEB7227 /* Pods-EncyptionDecyption_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EncyptionDecyption_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E6EBE1E79A8529F67B3996D29EE35A44 /* EncyptionDecyption.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EncyptionDecyption.framework; path = EncyptionDecyption.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8676A22CEAEB375A6991F8CA38F3D1D /* Pods-EncyptionDecyption_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-EncyptionDecyption_Tests.modulemap"; sourceTree = "<group>"; };
+		E9191B25AB6DAEBBF76C0B1EF7150D21 /* Pods-EncyptionDecyption_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EncyptionDecyption_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2CD71A87CCB06D8C6FB03F021F5700E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F529022902B0628C9E15CA41C9E7CE /* EncyptionDecyption.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EncyptionDecyption.xcconfig; sourceTree = "<group>"; };
+		F7AB2DF7C3CA732F30E442B75C6CF8B4 /* EncyptionDecyption-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EncyptionDecyption-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CEBF5B30CE73F738454EA96F1C2C63A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D73923D469BE6499C8D2C4FA5F00C9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA89B410F903A44174403983E04D758 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3255EAAE0545356173BB7EB4F1D7B819 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83416678F62F71C5CC0E3E79F412B94D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F4C9AB76999C6EA220E791C6BD112CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070CCA6EDA63B3CB66BDEC8AE33DE49A /* Pods-EncyptionDecyption_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4DE3622B14DD752AE8F7B0DA8433D73C /* Info.plist */,
+				6E90E2B263A9E24001BC0D3059BCAF9C /* Pods-EncyptionDecyption_Example.modulemap */,
+				4CC3FEA74A4B8C7DBF57D8BB1DADB79F /* Pods-EncyptionDecyption_Example-acknowledgements.markdown */,
+				214BA1DD8C0A9F071F533D640F876B71 /* Pods-EncyptionDecyption_Example-acknowledgements.plist */,
+				3FEDEFE24E4153BB401AF6C967293FDE /* Pods-EncyptionDecyption_Example-dummy.m */,
+				5AE7093D518B53AE956F980CB5040CFB /* Pods-EncyptionDecyption_Example-frameworks.sh */,
+				36202391FE566BD9BDDAFEDFBD87729B /* Pods-EncyptionDecyption_Example-resources.sh */,
+				CB2C6F0D64A651EA7679E1984163E892 /* Pods-EncyptionDecyption_Example-umbrella.h */,
+				2E749F9BC229558D49B9308E25468D83 /* Pods-EncyptionDecyption_Example.debug.xcconfig */,
+				8790756C4E5F66F13A7086DE6C6BCD9E /* Pods-EncyptionDecyption_Example.release.xcconfig */,
+			);
+			name = "Pods-EncyptionDecyption_Example";
+			path = "Target Support Files/Pods-EncyptionDecyption_Example";
+			sourceTree = "<group>";
+		};
+		55D7BAD8C516E8939BD816B96A51DADC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A1877BFFB43F67BDE5ACB454B8B0BFD0 /* EncyptionDecyption */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				55D7BAD8C516E8939BD816B96A51DADC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D24E3D756F405369C6A8C8F5513CD6AB /* Products */,
+				FB5CC6B9B1297A84427C00B742A87208 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84AA453F5A6EAB4223ABE9425FAA6D68 /* Pods-EncyptionDecyption_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				13AE12FAE8C4E6BB28EA5735BA4E2055 /* Info.plist */,
+				E8676A22CEAEB375A6991F8CA38F3D1D /* Pods-EncyptionDecyption_Tests.modulemap */,
+				E9191B25AB6DAEBBF76C0B1EF7150D21 /* Pods-EncyptionDecyption_Tests-acknowledgements.markdown */,
+				D37D2E977C0B58A0D3AF51B55CEB7227 /* Pods-EncyptionDecyption_Tests-acknowledgements.plist */,
+				3A0CCBCAF8C5625FE525BA1AB6952E5B /* Pods-EncyptionDecyption_Tests-dummy.m */,
+				15324A69DB82C8ADEAA8908542D7F9DE /* Pods-EncyptionDecyption_Tests-frameworks.sh */,
+				8B7111C19D413F32CCCA5D1DA4E54BED /* Pods-EncyptionDecyption_Tests-resources.sh */,
+				3D244671795FE23147773E400660A198 /* Pods-EncyptionDecyption_Tests-umbrella.h */,
+				D3038CE95F8B321DF56996B81D3A6CF7 /* Pods-EncyptionDecyption_Tests.debug.xcconfig */,
+				69F05EA5C21A66FC6FCD5F1E49F6A795 /* Pods-EncyptionDecyption_Tests.release.xcconfig */,
+			);
+			name = "Pods-EncyptionDecyption_Tests";
+			path = "Target Support Files/Pods-EncyptionDecyption_Tests";
+			sourceTree = "<group>";
+		};
+		A1877BFFB43F67BDE5ACB454B8B0BFD0 /* EncyptionDecyption */ = {
+			isa = PBXGroup;
+			children = (
+				8582E49E25ABF17EF35C35A89406C358 /* ReplaceMe.swift */,
+				E111BBCCA3F8F75E2E4EEDABAF953DFF /* Pod */,
+				BD8292E8C69E575FCABD633A4BF11B72 /* Support Files */,
+			);
+			name = EncyptionDecyption;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD8292E8C69E575FCABD633A4BF11B72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				213EC33F691C85C616D462E200F41445 /* EncyptionDecyption.modulemap */,
+				F4F529022902B0628C9E15CA41C9E7CE /* EncyptionDecyption.xcconfig */,
+				A62641ADE53F5223741DA5ADAC2CF0C4 /* EncyptionDecyption-dummy.m */,
+				F7AB2DF7C3CA732F30E442B75C6CF8B4 /* EncyptionDecyption-prefix.pch */,
+				40D4D75411FC2C244C676F89806DCE81 /* EncyptionDecyption-umbrella.h */,
+				F2CD71A87CCB06D8C6FB03F021F5700E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EncyptionDecyption";
+			sourceTree = "<group>";
+		};
+		D24E3D756F405369C6A8C8F5513CD6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EBE1E79A8529F67B3996D29EE35A44 /* EncyptionDecyption.framework */,
+				084AC00EE6F4BE7327DE84B774D4304F /* Pods_EncyptionDecyption_Example.framework */,
+				50D5AEEC12F629BA023DB7F249CF1D11 /* Pods_EncyptionDecyption_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E111BBCCA3F8F75E2E4EEDABAF953DFF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				85279793C20700979EB52B2C52F3B7F9 /* EncyptionDecyption.podspec */,
+				CE8F988EA86CA892442E4560D99BF616 /* LICENSE */,
+				58C0193090EFA311A1A42CBA4C901659 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FB5CC6B9B1297A84427C00B742A87208 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				070CCA6EDA63B3CB66BDEC8AE33DE49A /* Pods-EncyptionDecyption_Example */,
+				84AA453F5A6EAB4223ABE9425FAA6D68 /* Pods-EncyptionDecyption_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		85AECA3A7ACE7C23FB5D88E76142FB47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E668C14C281A973D1CD615C41B7882 /* EncyptionDecyption-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90A8E4807D353994BF056391D3BA150C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1758000495C0D70B7972AB1B9BA3A23B /* Pods-EncyptionDecyption_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CC07748277F259956D5611303D5D09 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				671CDD805BF0D9ACCF20CF1EB20EC6D4 /* Pods-EncyptionDecyption_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15A5B7B979C3357CDBB7493BED4EBA85 /* EncyptionDecyption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798CD2BC01C5ED50F75082D1FBB90B9B /* Build configuration list for PBXNativeTarget "EncyptionDecyption" */;
+			buildPhases = (
+				D50F76A9A8ACF0BA0C9AF6AA3BA5979C /* Sources */,
+				6DA89B410F903A44174403983E04D758 /* Frameworks */,
+				85AECA3A7ACE7C23FB5D88E76142FB47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncyptionDecyption;
+			productName = EncyptionDecyption;
+			productReference = E6EBE1E79A8529F67B3996D29EE35A44 /* EncyptionDecyption.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8732340C72E3D8778B0F838790CB0AA6 /* Pods-EncyptionDecyption_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09161587E3481E6C73AED50889C4BDAD /* Build configuration list for PBXNativeTarget "Pods-EncyptionDecyption_Example" */;
+			buildPhases = (
+				66ABC33031289BED9233EF457738264D /* Sources */,
+				83416678F62F71C5CC0E3E79F412B94D /* Frameworks */,
+				90A8E4807D353994BF056391D3BA150C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5009E4268DC98192CEBDCF5806DCD5E8 /* PBXTargetDependency */,
+			);
+			name = "Pods-EncyptionDecyption_Example";
+			productName = "Pods-EncyptionDecyption_Example";
+			productReference = 084AC00EE6F4BE7327DE84B774D4304F /* Pods_EncyptionDecyption_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C00D43810274FB9FEE0DD9A870A1A68A /* Pods-EncyptionDecyption_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 422E51BA104C9059636AAC8D154947F0 /* Build configuration list for PBXNativeTarget "Pods-EncyptionDecyption_Tests" */;
+			buildPhases = (
+				C6FED2F0FD03524E680CF84B4DFB8732 /* Sources */,
+				1CEBF5B30CE73F738454EA96F1C2C63A /* Frameworks */,
+				98CC07748277F259956D5611303D5D09 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-EncyptionDecyption_Tests";
+			productName = "Pods-EncyptionDecyption_Tests";
+			productReference = 50D5AEEC12F629BA023DB7F249CF1D11 /* Pods_EncyptionDecyption_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D24E3D756F405369C6A8C8F5513CD6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15A5B7B979C3357CDBB7493BED4EBA85 /* EncyptionDecyption */,
+				8732340C72E3D8778B0F838790CB0AA6 /* Pods-EncyptionDecyption_Example */,
+				C00D43810274FB9FEE0DD9A870A1A68A /* Pods-EncyptionDecyption_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66ABC33031289BED9233EF457738264D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5034DE07C1431590F7A2030EBCEDB0A2 /* Pods-EncyptionDecyption_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6FED2F0FD03524E680CF84B4DFB8732 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FF9C7BACC3008F23AD842519B50C4E /* Pods-EncyptionDecyption_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D50F76A9A8ACF0BA0C9AF6AA3BA5979C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A737D15CE5471694A160BA4B12C9916 /* EncyptionDecyption-dummy.m in Sources */,
+				21B2753461FE671531DC6DD2B5B85FA1 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5009E4268DC98192CEBDCF5806DCD5E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EncyptionDecyption;
+			target = 15A5B7B979C3357CDBB7493BED4EBA85 /* EncyptionDecyption */;
+			targetProxy = D3C0184A0AF60623F73F39B348A3C846 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F5CDAC4FF9D955C1D5CCACB5FED0BCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8790756C4E5F66F13A7086DE6C6BCD9E /* Pods-EncyptionDecyption_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyptionDecyption_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyptionDecyption_Example/Pods-EncyptionDecyption_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyptionDecyption_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3EDC5FB80873C643CCF5D56084349243 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F529022902B0628C9E15CA41C9E7CE /* EncyptionDecyption.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EncyptionDecyption/EncyptionDecyption-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EncyptionDecyption/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EncyptionDecyption/EncyptionDecyption.modulemap";
+				PRODUCT_NAME = EncyptionDecyption;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		849077B7DE53F113F872F5BAE7CFFB4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F05EA5C21A66FC6FCD5F1E49F6A795 /* Pods-EncyptionDecyption_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyptionDecyption_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyptionDecyption_Tests/Pods-EncyptionDecyption_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyptionDecyption_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E144740988320F360E51D47E3FEF9389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F529022902B0628C9E15CA41C9E7CE /* EncyptionDecyption.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EncyptionDecyption/EncyptionDecyption-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EncyptionDecyption/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EncyptionDecyption/EncyptionDecyption.modulemap";
+				PRODUCT_NAME = EncyptionDecyption;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA139CB4B278138DA644CC70631B0CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3038CE95F8B321DF56996B81D3A6CF7 /* Pods-EncyptionDecyption_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyptionDecyption_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyptionDecyption_Tests/Pods-EncyptionDecyption_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyptionDecyption_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F7EC0EDD043B642EF1D7D7A453E92E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E749F9BC229558D49B9308E25468D83 /* Pods-EncyptionDecyption_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EncyptionDecyption_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EncyptionDecyption_Example/Pods-EncyptionDecyption_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EncyptionDecyption_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09161587E3481E6C73AED50889C4BDAD /* Build configuration list for PBXNativeTarget "Pods-EncyptionDecyption_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7EC0EDD043B642EF1D7D7A453E92E32 /* Debug */,
+				0F5CDAC4FF9D955C1D5CCACB5FED0BCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		422E51BA104C9059636AAC8D154947F0 /* Build configuration list for PBXNativeTarget "Pods-EncyptionDecyption_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA139CB4B278138DA644CC70631B0CCC /* Debug */,
+				849077B7DE53F113F872F5BAE7CFFB4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		798CD2BC01C5ED50F75082D1FBB90B9B /* Build configuration list for PBXNativeTarget "EncyptionDecyption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E144740988320F360E51D47E3FEF9389 /* Debug */,
+				3EDC5FB80873C643CCF5D56084349243 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

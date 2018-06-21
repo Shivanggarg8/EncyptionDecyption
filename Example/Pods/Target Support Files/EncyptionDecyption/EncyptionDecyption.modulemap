@@ -1,0 +1,6 @@
+framework module EncyptionDecyption {
+  umbrella header "EncyptionDecyption-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - EncyptionDecyption (0.1.0)
+
+DEPENDENCIES:
+  - EncyptionDecyption (from `../`)
+
+EXTERNAL SOURCES:
+  EncyptionDecyption:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EncyptionDecyption: 7f46d837b3878ab5ba2e0c2a992132d10deaca70
+
+PODFILE CHECKSUM: dbedf333318c8a99b8cf22a8b6fd96a1cfcbd5d9
+
+COCOAPODS: 1.4.0

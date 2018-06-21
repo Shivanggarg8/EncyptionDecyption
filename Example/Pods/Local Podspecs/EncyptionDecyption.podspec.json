@@ -1,0 +1,22 @@
+{
+  "name": "EncyptionDecyption",
+  "version": "0.1.0",
+  "summary": "A short description of EncyptionDecyption.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shivanggarg8/EncyptionDecyption",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shivanggarg8": "shivanggarg8@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/shivanggarg8/EncyptionDecyption.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EncyptionDecyption/Classes/**/*"
+}
