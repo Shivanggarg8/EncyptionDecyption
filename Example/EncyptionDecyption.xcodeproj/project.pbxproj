@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		33BAA25AFBB182D49215083E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		33BAA25AFBB182D49215083E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		55E13EC9C7D2366A10FC71F6 /* Pods-EncyptionDecyption_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncyptionDecyption_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EncyptionDecyption_Tests/Pods-EncyptionDecyption_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5D1C0B026AFC4D0B51D8EB7B /* Pods_EncyptionDecyption_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncyptionDecyption_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* EncyptionDecyption_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncyptionDecyption_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,8 +41,8 @@
 		607FACE51AFB9204008FA782 /* EncyptionDecyption_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncyptionDecyption_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6D5AF1C91579EBFB4A0AAB7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8F7F37EFC40F5025F70C5403 /* EncyptionDecyption.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EncyptionDecyption.podspec; path = ../EncyptionDecyption.podspec; sourceTree = "<group>"; };
+		6D5AF1C91579EBFB4A0AAB7A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8F7F37EFC40F5025F70C5403 /* EncyptionDecyption.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EncyptionDecyption.podspec; path = ../EncyptionDecyption.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		90D710560BB21BFF2A800B64 /* Pods_EncyptionDecyption_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncyptionDecyption_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A90B76C549449649E34DA3B1 /* Pods-EncyptionDecyption_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncyptionDecyption_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EncyptionDecyption_Tests/Pods-EncyptionDecyption_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BB35192B5F0B565CCD58218C /* Pods-EncyptionDecyption_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncyptionDecyption_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EncyptionDecyption_Example/Pods-EncyptionDecyption_Example.debug.xcconfig"; sourceTree = "<group>"; };
